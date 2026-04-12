@@ -5,7 +5,7 @@ public class RoundRobin {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number of processes : ");
         int n = input.nextInt();
-        
+
         int[] pid = new int[n];
         int[] at = new int[n];
         int[] bt = new int[n];
@@ -60,5 +60,6 @@ public class RoundRobin {
 
         System.out.println("\nAverage Waiting Time = " + (avgWT/n));
         System.out.println("\nAverage Turnaround Time = " + (avgTAT/n));
+        input.close();
     }
 }

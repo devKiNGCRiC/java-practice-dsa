@@ -40,5 +40,7 @@ public class FCFS{
 
         System.out.println("\nAverage Waiting Time = " + (avgWT/n));
         System.out.println("\nAverage Turnaround Time = " + (avgTAT/n));
+
+        sc.close();
     }
 }
