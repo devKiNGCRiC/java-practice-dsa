@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class SSTF {
     public static void main(String[] args) {
         int[] requests = {82, 170, 43, 140, 24, 16, 190};
