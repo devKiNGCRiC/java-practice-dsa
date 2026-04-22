@@ -6,7 +6,7 @@ public class VolumeSphere {
         System.out.print("Enter The Radius Value : ");
         double radius = input.nextDouble();
         double volume = 4* (Math.PI * Math.pow(radius,3))/3;
-        System.out.print("The Area Of Sphere is : " + volume);
+        System.out.print("The Volume Of Sphere is : " + volume);
         input.close();
     }
 }
